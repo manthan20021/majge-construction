@@ -4,7 +4,7 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import Link from "next/link";
-import { log } from "console";
+
 
 export function ThreeDCardDemo({data}) {
   
