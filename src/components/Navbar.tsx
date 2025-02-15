@@ -12,14 +12,10 @@ export function NavbarDemo({ className }: { className?: string }) {
 <Menu setActive={setActive}>
 <MenuItem setActive={setActive} active={active} item="Home">
 </MenuItem>
-<MenuItem setActive={setActive} active={active} item="About">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
-        </MenuItem>
+
+
+<MenuItem setActive={setActive} active={active} item="About"></MenuItem>
+
 
         <MenuItem setActive={setActive} active={active} item="Srvises">
           <div className="flex flex-col space-y-4 text-sm">

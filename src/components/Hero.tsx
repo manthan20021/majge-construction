@@ -52,7 +52,7 @@ export default function Hero(){
                 >Lorem ipsum dolor Quia vitae e quo enim voluptas adipisci vero quod quisquam, perspiciatis tempore incidunt, aut necessitatibus, assumenda est?
                 </p>
                 <div className="mt-9 sm:mt-0" >
-                    <Link href={"/srvises"}>
+                    <Link href={"/About"}>
                     <Button
         borderRadius="1.75rem"
         className=" bg-slate-900  text-white border-slate-800"
